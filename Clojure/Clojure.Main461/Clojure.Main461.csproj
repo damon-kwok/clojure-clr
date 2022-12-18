@@ -2,9 +2,10 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net462</TargetFrameworks>
     <StartupObject>Clojure.CljMain</StartupObject>
 	 <PackAsTool>true</PackAsTool>
+	 <TargetFramework>net7.0</TargetFramework>
+      <PublishAot>true</PublishAot>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +21,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<Content Include ="Content/**/*.dll">
+		<Content Include="Content/**/*.dll">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
 		</Content>

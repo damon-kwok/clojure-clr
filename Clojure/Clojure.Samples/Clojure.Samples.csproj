@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFramework>net7.0</TargetFramework>
+    <PublishAot>true</PublishAot>
   </PropertyGroup>
 
   <ItemGroup>

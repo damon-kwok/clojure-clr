@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp3.1;net6.0;net7.0</TargetFrameworks>
-    <StartupObject>Clojure.CljMain</StartupObject>
-	 <PackAsTool>true</PackAsTool>
+      <OutputType>Exe</OutputType>
+      <StartupObject>Clojure.CljMain</StartupObject>
+	  <PackAsTool>true</PackAsTool>
+	  <TargetFramework>net7.0</TargetFramework>
+      <PublishAot>true</PublishAot>
   </PropertyGroup>
 
 	<PropertyGroup>
