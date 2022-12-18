@@ -6,13 +6,14 @@
 	 <PackAsTool>true</PackAsTool>
 	 <TargetFramework>net7.0</TargetFramework>
       <PublishAot>true</PublishAot>
+      <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="clojure.core.specs.alpha" Version="0.2.62" />
     <PackageReference Include="clojure.spec.alpha" Version="0.3.218" />
     <PackageReference Include="clr.tools.reader" Version="1.3.6" />
-    <PackageReference Include="DynamicLanguageRuntime" Version="1.3.3" />
+    <PackageReference Include="DynamicLanguageRuntime" Version="1.3.2" />
   </ItemGroup>
 
   <ItemGroup>
