@@ -366,3 +366,6 @@ MigrationBackup/
 testing/
 
 Stage/
+
+# Jetbrains Rider
+.idea/
